@@ -33,7 +33,7 @@ body {
 }
 
 button {
-  background-color: #007bff;
+  background-color: #62a7f2;
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -43,7 +43,7 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #0452a4;
 }
 
 .toggle {
@@ -68,7 +68,7 @@ button:hover {
 .option {
   margin-bottom: 10px;
   display: flex;
-  align-items: center; /* Aligns the items (toggle switch and label) vertically */
+  align-items: center;
 }
 
 .toggle:checked {
