@@ -57,7 +57,7 @@ function saveSettings() {
 function showModalAfterDelay(modalId) {
     setTimeout(function() {
         showModal(modalId);
-    }, 5000); // 5000 milliseconds = 5 seconds
+    }, 9000); // 9000 milliseconds = 9 seconds
 }
 
 // Function to get browser name
