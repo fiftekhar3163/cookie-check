@@ -4,9 +4,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Md Fahim Iftekhar" />
-    <meta name="description" content="Speed-typo" />
-    <meta name="keywords" content="typing, speed, fast" />
-    <title>Speed Typo</title>
+    <meta name="description" content="cookie-check" />
+    <meta name="keywords" content="cookie, save, settings," />
+    <title>Cookie check</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -30,4 +30,42 @@
     />
     <link rel="stylesheet" href="./assets/style/index.css" type="text/css" />
   </head>
+  <body>
+    <div id="overlay" class="overlay">
+      <div id="cookieModal" class="modal">
+        <h2>Cookie Settings</h2>
+        <p>
+          This website uses cookies to enhance user experience. Please review
+          our <a href="#">Cookie Policy</a>.
+        </p>
+        <button id="acceptAllBtn">Accept All</button>
+        <button id="settingsBtn">Settings</button>
+      </div>
+    </div>
+
+    <div id="settingsModal" class="modal">
+      <h2>Cookie Preferences</h2>
+      <div class="option">
+        <label>
+          <input type="checkbox" class="toggle" checked /> Store device
+          information
+        </label>
+      </div>
+      <div class="option">
+        <label>
+          <input type="checkbox" class="toggle" checked /> Store browser
+          information
+        </label>
+      </div>
+      <div class="option">
+        <label>
+          <input type="checkbox" class="toggle" checked /> Store operating
+          system information
+        </label>
+      </div>
+      <button id="saveSettingsBtn">Save Settings</button>
+    </div>
+
+    <script src="./assets/script/script.js" type="module"></script>
+  </body>
 </html>
